@@ -3,7 +3,7 @@ class Formacion {
     // Zona de atributos
     private object $refLocomotora; # Referencia a la clase Locomotora
     private array $colVagones; # Espero una sola coleccion de vagones (Carga y/o Pasajeros)
-    private int $cantMaximaVagones; 
+    private int $cantMaximaVagones;
     // Zona de metodos
     // Metodo constructor (__construct)
     public function __construct($objLocomotora,$coleccionVagones,$cantMaxVagones) {
